@@ -11,3 +11,6 @@ def test_multiply():
 
 def test_divide():
     assert op.divide(10,5) == 2    
+
+def test_get_squared():
+    assert op.get_squared(9) == 81
